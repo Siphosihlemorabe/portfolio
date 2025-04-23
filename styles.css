@@ -164,4 +164,37 @@
     margin: 0 auto 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+  /* ========================================================
+   Skills Section
+======================================================== */
+.skills span {
+  background-color: #e3f2fd;
+  color: #1565c0;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(21, 101, 192, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.skills span:hover {
+  background-color: #bbdefb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(21, 101, 192, 0.15);
+}
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF; /* or your preferred primary color */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
